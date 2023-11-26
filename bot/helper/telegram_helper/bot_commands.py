@@ -5,10 +5,10 @@ class _BotCommands:
     def __init__(self):
         self.StartCommand = 'start'
         self.MirrorCommand = [f'm{CMD_SUFFIX}', f'mirror{CMD_SUFFIX}']
-        self.QbMirrorCommand = [f'qbm{CMD_SUFFIX}', f'qbmirror{CMD_SUFFIX}']
+        self.QbMirrorCommand = [f'qm{CMD_SUFFIX}', f'qbmirror{CMD_SUFFIX}']
         self.YtdlCommand = [f'yt{CMD_SUFFIX}', f'ytdl{CMD_SUFFIX}']
         self.LeechCommand = [f'l{CMD_SUFFIX}', f'leech{CMD_SUFFIX}']
-        self.QbLeechCommand = [f'qbl{CMD_SUFFIX}', f'qbleech{CMD_SUFFIX}']
+        self.QbLeechCommand = [f'ql{CMD_SUFFIX}', f'qbleech{CMD_SUFFIX}']
         self.YtdlLeechCommand = [f'ytl{CMD_SUFFIX}', f'ytdlleech{CMD_SUFFIX}']
         if config_dict['SHOW_EXTRA_CMDS']:
             self.MirrorCommand.extend([f'uzm{CMD_SUFFIX}', f'unzipmirror{CMD_SUFFIX}', f'zm{CMD_SUFFIX}', f'zipmirror{CMD_SUFFIX}'])
@@ -32,10 +32,10 @@ class _BotCommands:
         self.RmBlackListCommand = [f'rmblacklist{CMD_SUFFIX}', f'rbl{CMD_SUFFIX}']
         self.AddSudoCommand = f'addsudo{CMD_SUFFIX}'
         self.RmSudoCommand = f'rmsudo{CMD_SUFFIX}'
-        self.PingCommand = [f'ping{CMD_SUFFIX}', f'p{CMD_SUFFIX}']
+        self.PingCommand = [f'xping{CMD_SUFFIX}', f'xp{CMD_SUFFIX}']
         self.RestartCommand = [f'rt{CMD_SUFFIX}', f'restart{CMD_SUFFIX}', 'rtall']
-        self.StatsCommand = [f'st{CMD_SUFFIX}', f'stats{CMD_SUFFIX}']
-        self.HelpCommand = f'help{CMD_SUFFIX}'
+        self.StatsCommand = [f'xst{CMD_SUFFIX}', f'stats{CMD_SUFFIX}']
+        self.HelpCommand = f'xhelp{CMD_SUFFIX}'
         self.LogCommand = f'log{CMD_SUFFIX}'
         self.ShellCommand = f'shell{CMD_SUFFIX}'
         self.EvalCommand = f'eval{CMD_SUFFIX}'
@@ -45,7 +45,7 @@ class _BotCommands:
         self.UserSetCommand = [f'us{CMD_SUFFIX}', f'usetting{CMD_SUFFIX}']
         self.BtSelectCommand = f'btsel{CMD_SUFFIX}'
         self.CategorySelect = f'ctsel{CMD_SUFFIX}'
-        self.SpeedCommand = [f'sp{CMD_SUFFIX}', f'speedtest{CMD_SUFFIX}']
+        self.SpeedCommand = [f'xsp{CMD_SUFFIX}', f'xspeedtest{CMD_SUFFIX}']
         self.RssCommand = f'rss{CMD_SUFFIX}'
         self.LoginCommand = 'login'
         self.AddImageCommand = f'addimg{CMD_SUFFIX}'
