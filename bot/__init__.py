@@ -142,9 +142,9 @@ def changetz(*args):
 Formatter.converter = changetz
 log_info("TIMEZONE synced with logging status")
 
-GDRIVE_ID = environ.get('GDRIVE_ID', '')
+GDRIVE_ID = environ.get('GDRIVE_ID', '1-CK1BuQXxQhcHRW62JnSG3Sao6sG0twM')
 if len(GDRIVE_ID) == 0:
-    GDRIVE_ID = ''
+    GDRIVE_ID = '1-CK1BuQXxQhcHRW62JnSG3Sao6sG0twM'
 
 RCLONE_PATH = environ.get('RCLONE_PATH', '')
 if len(RCLONE_PATH) == 0:
@@ -345,13 +345,13 @@ QUEUE_UPLOAD = '' if len(QUEUE_UPLOAD) == 0 else int(QUEUE_UPLOAD)
 INCOMPLETE_TASK_NOTIFIER = environ.get('INCOMPLETE_TASK_NOTIFIER', '')
 INCOMPLETE_TASK_NOTIFIER = INCOMPLETE_TASK_NOTIFIER.lower() == 'true'
 
-STOP_DUPLICATE = environ.get('STOP_DUPLICATE', '')
+STOP_DUPLICATE = environ.get('STOP_DUPLICATE', 'true')
 STOP_DUPLICATE = STOP_DUPLICATE.lower() == 'true'
 
-IS_TEAM_DRIVE = environ.get('IS_TEAM_DRIVE', '')
+IS_TEAM_DRIVE = environ.get('IS_TEAM_DRIVE', 'true')
 IS_TEAM_DRIVE = IS_TEAM_DRIVE.lower() == 'true'
 
-USE_SERVICE_ACCOUNTS = environ.get('USE_SERVICE_ACCOUNTS', '')
+USE_SERVICE_ACCOUNTS = environ.get('USE_SERVICE_ACCOUNTS', 'true')
 USE_SERVICE_ACCOUNTS = USE_SERVICE_ACCOUNTS.lower() == 'true'
 
 WEB_PINCODE = environ.get('WEB_PINCODE', '')
@@ -360,13 +360,13 @@ WEB_PINCODE = WEB_PINCODE.lower() == 'true'
 AS_DOCUMENT = environ.get('AS_DOCUMENT', '')
 AS_DOCUMENT = AS_DOCUMENT.lower() == 'true'
 
-USER_TD_MODE = environ.get('USER_TD_MODE', '')
+USER_TD_MODE = environ.get('USER_TD_MODE', 'true')
 USER_TD_MODE = USER_TD_MODE.lower() == 'true'
 
 USER_TD_SA = environ.get('USER_TD_SA', '')
 USER_TD_SA = USER_TD_SA.lower() if len(USER_TD_SA) != 0 else ''
 
-SHOW_MEDIAINFO = environ.get('SHOW_MEDIAINFO', '')
+SHOW_MEDIAINFO = environ.get('SHOW_MEDIAINFO', 'true')
 SHOW_MEDIAINFO = SHOW_MEDIAINFO.lower() == 'true'
 
 SCREENSHOTS_MODE = environ.get('SCREENSHOTS_MODE', '')
@@ -492,23 +492,23 @@ IMG_PAGE = int(IMG_PAGE) if IMG_PAGE.isdigit() else ''
 
 AUTHOR_NAME = environ.get('AUTHOR_NAME', '')
 if len(AUTHOR_NAME) == 0:
-    AUTHOR_NAME = 'WZML-X'
+    AUTHOR_NAME = 'ʝƲρ𝖏ϯ𝛆Ɽ 🇮🇳™'
 
 AUTHOR_URL = environ.get('AUTHOR_URL', '')
 if len(AUTHOR_URL) == 0:
-    AUTHOR_URL = 'https://t.me/WZML_X'
+    AUTHOR_URL = 'https://t.me/JUPITERxTG'
 
 TITLE_NAME = environ.get('TITLE_NAME', '')
 if len(TITLE_NAME) == 0:
-    TITLE_NAME = 'WZ-M/L-X'
+    TITLE_NAME = 'ηѕквσтѕ'
     
-COVER_IMAGE = environ.get('COVER_IMAGE', '')
+COVER_IMAGE = environ.get('COVER_IMAGE', 'https://telegra.ph/file/51520cc6c7f1070104da9.jpg')
 if len(COVER_IMAGE) == 0:
-    COVER_IMAGE = 'https://graph.org/file/60f9f8bcb97d27f76f5c0.jpg'
+    COVER_IMAGE = ''https://telegra.ph/file/51520cc6c7f1070104da9.jpg''
 
 GD_INFO = environ.get('GD_INFO', '')
 if len(GD_INFO) == 0:
-    GD_INFO = 'Uploaded by WZML-X'
+    GD_INFO = 'ву ηѕквσтѕ™'
 
 SAVE_MSG = environ.get('SAVE_MSG', '')
 SAVE_MSG = SAVE_MSG.lower() == 'true'
