@@ -504,7 +504,7 @@ if len(TITLE_NAME) == 0:
     
 COVER_IMAGE = environ.get('COVER_IMAGE', 'https://telegra.ph/file/51520cc6c7f1070104da9.jpg')
 if len(COVER_IMAGE) == 0:
-    COVER_IMAGE = ''https://telegra.ph/file/51520cc6c7f1070104da9.jpg''
+    COVER_IMAGE = 'https://telegra.ph/file/51520cc6c7f1070104da9.jpg'
 
 GD_INFO = environ.get('GD_INFO', '')
 if len(GD_INFO) == 0:
