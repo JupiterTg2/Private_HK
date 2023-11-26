@@ -24,7 +24,7 @@ page = """
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Torrent File Selector</title>
-    <link rel="icon" href="https://graph.org/file/1a6ad157f55bc42b548df.png" type="image/jpg">
+    <link rel="icon" href="https://telegra.ph/file/51520cc6c7f1070104da9.jpg" type="image/jpg">
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
@@ -617,16 +617,16 @@ section span{
     <header>
       <div class="brand">
         <img
-          src="https://graph.org/file/1a6ad157f55bc42b548df.png"
+          src="https://telegra.ph/file/51520cc6c7f1070104da9.jpg"
           alt="logo"
         />
-        <a href="https://t.me/WZML_X">
+        <a href="https://t.me/NSKBOTS">
           <h2 class="name">Bittorrent Selection</h2>
         </a>
       </div>
       <div class="social">
         <a href="https://www.github.com/weebzone/WZML-X"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/WZML_X"><i class="fab fa-telegram"></i></a>
+        <a href="https://t.me/NSKBOTS"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
     <section>
