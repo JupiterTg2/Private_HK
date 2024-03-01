@@ -6,17 +6,17 @@ class _BotCommands:
         self.StartCommand = 'start'
         self.MirrorCommand = [f'm{CMD_SUFFIX}', f'mirror{CMD_SUFFIX}']
         self.QbMirrorCommand = [f'qm{CMD_SUFFIX}', f'qbmirror{CMD_SUFFIX}']
-        self.YtdlCommand = [f'yt{CMD_SUFFIX}', f'ytdl{CMD_SUFFIX}']
+        self.YtdlCommand = [f'xxyt{CMD_SUFFIX}', f'xxytdl{CMD_SUFFIX}']
         self.LeechCommand = [f'l{CMD_SUFFIX}', f'leech{CMD_SUFFIX}']
         self.QbLeechCommand = [f'ql{CMD_SUFFIX}', f'qbleech{CMD_SUFFIX}']
-        self.YtdlLeechCommand = [f'ytl{CMD_SUFFIX}', f'ytdlleech{CMD_SUFFIX}']
+        self.YtdlLeechCommand = [f'xxytl{CMD_SUFFIX}', f'xxytdlleech{CMD_SUFFIX}']
         if config_dict['SHOW_EXTRA_CMDS']:
             self.MirrorCommand.extend([f'uzm{CMD_SUFFIX}', f'unzipmirror{CMD_SUFFIX}', f'zm{CMD_SUFFIX}', f'zipmirror{CMD_SUFFIX}'])
             self.QbMirrorCommand.extend([f'qbuzm{CMD_SUFFIX}', f'qbunzipmirror{CMD_SUFFIX}', f'qbzm{CMD_SUFFIX}', f'qbzipmirror{CMD_SUFFIX}'])
-            self.YtdlCommand.extend([f'ytz{CMD_SUFFIX}', f'ytdlzip{CMD_SUFFIX}'])
+            self.YtdlCommand.extend([f'xxytz{CMD_SUFFIX}', f'xxytdlzip{CMD_SUFFIX}'])
             self.LeechCommand.extend([f'uzl{CMD_SUFFIX}', f'unzipleech{CMD_SUFFIX}', f'zl{CMD_SUFFIX}', f'zipleech{CMD_SUFFIX}'])
             self.QbLeechCommand.extend([f'qbuzl{CMD_SUFFIX}', f'qbunzipleech{CMD_SUFFIX}', f'qbzl{CMD_SUFFIX}', f'qbzipleech{CMD_SUFFIX}'])
-            self.YtdlLeechCommand.extend([f'ytzl{CMD_SUFFIX}', f'ytdlzipleech{CMD_SUFFIX}'])
+            self.YtdlLeechCommand.extend([f'xxytzl{CMD_SUFFIX}', f'xxytdlzipleech{CMD_SUFFIX}'])
         self.CloneCommand = [f'c{CMD_SUFFIX}', f'clone{CMD_SUFFIX}']
         self.CountCommand = f'count{CMD_SUFFIX}'
         self.DeleteCommand = f'del{CMD_SUFFIX}'
@@ -33,8 +33,8 @@ class _BotCommands:
         self.AddSudoCommand = f'addsudo{CMD_SUFFIX}'
         self.RmSudoCommand = f'rmsudo{CMD_SUFFIX}'
         self.PingCommand = [f'xping{CMD_SUFFIX}', f'xp{CMD_SUFFIX}']
-        self.RestartCommand = [f'rt{CMD_SUFFIX}', f'restart{CMD_SUFFIX}', 'rtall']
-        self.StatsCommand = [f'xst{CMD_SUFFIX}', f'stats{CMD_SUFFIX}']
+        self.RestartCommand = [f'r{CMD_SUFFIX}', f'restart{CMD_SUFFIX}', 'rtall']
+        self.StatsCommand = [f'xst{CMD_SUFFIX}', f'xstats{CMD_SUFFIX}']
         self.HelpCommand = f'xhelp{CMD_SUFFIX}'
         self.LogCommand = f'log{CMD_SUFFIX}'
         self.ShellCommand = f'shell{CMD_SUFFIX}'
